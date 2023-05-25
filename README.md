@@ -1,5 +1,7 @@
 # Jiramazing
 
+<img src="logo.png" alt="Logo" width="200" height="200" style="float: right;">
+
 Jiramazing is a Jira manager that is integrated with Open AI. It allows you to search and update Jira tickets using GraphQL queries and mutations. 
 
 ## Installation
