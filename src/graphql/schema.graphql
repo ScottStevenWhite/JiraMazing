@@ -1,0 +1,23 @@
+type Issue {
+  id: String
+  key: String
+  summary: String
+  description: String
+}
+
+type Ticket {
+  id: String
+  key: String
+}
+
+type Query {
+  issues: [Issue]
+  searchTickets(name: String!, projectKey: String!): [Ticket]
+  getTicket(key: String!): Ticket
+  getProjects: Ticket
+  getIssue: Issue
+}
+
+type Mutation {
+  updateTicket(key: String!, summary: String, description: String): Ticket
+}
